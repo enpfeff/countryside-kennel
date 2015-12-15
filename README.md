@@ -1,5 +1,7 @@
+[![Build Status](https://travis-ci.org/enpfeff/countryside-kennel.svg?branch=master)](https://travis-ci.org/enpfeff/countryside-kennel)
+
 # Countryside Kennels Website
-+ Angular 
++ Angular
 + Node 
 + Express
 + ES6
