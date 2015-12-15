@@ -1,4 +1,4 @@
-# Seed project
+# Countryside Kennels Website
 + Angular 
 + Node 
 + Express

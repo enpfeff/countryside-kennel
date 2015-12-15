@@ -4,9 +4,11 @@ node_js:
 before_script:
 - npm install -g gulp
 script: gulp build
-#deploy:
-#  provider: heroku
-#  api_key:
-#  app:
-#    master:
-#  skip_cleanup: true
+deploy:
+  provider: heroku
+  api_key:
+    secure: NFjvGwV9+7d+vIrm26dwey5+PaH+O4tdFA8LOkTwyhthrP+6pQjJdGDJJFEZ5SxKXRufAiwEsNcvolv+FpCufcG/l0P6L4EAG4LutwA2jqOyoNhpcWgB0ltexLij2fZ4v+a4TTJcIhNoR/HJRWr4L4RwNr9N1DHd6y1INSAYucuH8ySZs9pyy92TRrlOHNuDCLN+abPvXsCBxy+jWeSKJYsne9XsR8UJOJrvVXcA1BMRQfi9GU+G415aWUzMVLNbkyv9hR4RuWXHNYEFhCShXQf4/IaxHTyek3XLIdphxI4F91T0V31dB3vnu8jCq+xrkNPRx447hdXj/j+aOkE8OwzNwCx55n/7C7QAZYRNUVhICpJjtzLmUh8gH154ALogDh2G5uKgqW/95H8I7rKevQ/QePs/SnisonrNMZIVj2WeyI4rrgw7sgHuZLmfPT8oOj3WWxXKUtAQImcqUZfHnlpwKnG62EUnnVeJN2gGsDtDrtKCKW2cA5fAliBU6bdRivY6ZS1utr4Qu+yjnerIAguA9J8ivzCnThrxx8KvSC1fR7DrXWE1yIP728X46QczFEGta2bXPURrjU8o9ZNRWzK6/SfUDqJiFjhuCDlTsaZ0uizsKIjf/ZOX+yuMcV5+aW7tR/Oq88vaAmLra9f0kGsZbc7D4bcXThG8G6twCiQ=
+  app:
+    master: countryside-kennels-prod
+    dev: countryside-kennels-dev
+  skip_cleanup: true
