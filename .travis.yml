@@ -4,6 +4,10 @@ node_js:
 before_script:
 - npm install -g gulp
 script: gulp build
+branches:
+  only:
+    - master
+    - dev
 deploy:
   provider: heroku
   api_key:

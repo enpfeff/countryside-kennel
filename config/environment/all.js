@@ -3,7 +3,7 @@
  */
 module.exports = {
     app: {
-        title: 'Seed Project'
+        title: 'Countryside Kennels'
     },
     port: process.env.PORT || 3000
 };
